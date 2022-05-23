@@ -3,6 +3,7 @@
 .app{
   overflow-x: hidden;
 }
+html{scroll-behavior:smooth;}
 .menu{
   display: grid;
   grid-template-columns: 2fr 8fr 2fr;
@@ -193,7 +194,20 @@
 }
 .card{
     cursor: pointer;
+    position: relative;
 }
+.optional{
+  position: absolute;
+  top:0;
+  left:0;
+  background-color:rgb(68, 180, 68);
+  color:white;
+  font-size: large;
+  padding:0 10px;
+  letter-spacing: 0..05em;
+  z-index: 1;
+}
+
 .toggledDiv{
   min-height: 370px;
   background-size: cover;

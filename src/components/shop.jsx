@@ -6,7 +6,7 @@ function Shop() {
   const [page, setpage] = useState(1);
 
   return (
-    <div className="shop">
+    <div className="shop" id="shop">
       <div class="brush-wrap">
         <p>Shop Now</p>
       </div>
@@ -29,35 +29,39 @@ function Shop() {
           )}
         </div>
       }
-      <div className="pages">
-        <span
-          class="material-symbols-outlined"
-          onClick={() => (page !== 1 ? setpage(1) : "")}
-          style={{ color: page === 1 ? "gray" : "black" }}
-        >
-          arrow_back_ios
-        </span>
-        <p
-          onClick={() => (page !== 1 ? setpage(1) : "")}
-          style={{ color: page === 1 ? "blue" : "black" }}
-        >
-          1
-        </p>
-        <p
-          onClick={() => (page !== 2 ? setpage(2) : "")}
-          style={{ color: page === 2 ? "blue" : "black" }}
-        >
-          2
-        </p>
 
-        <span
-          class="material-symbols-outlined"
-          onClick={() => (page !== 2 ? setpage(2) : "")}
-          style={{ marginLeft: "5px", color: page === 2 ? "gray" : "black" }}
-        >
-          arrow_forward_ios
-        </span>
+      <div className="pages">
+        <a href="#shop">
+          <span
+            class="material-symbols-outlined"
+            onClick={() => (page !== 1 ? setpage(1) : "")}
+            style={{ color: page === 1 ? "gray" : "black" }}
+          >
+            arrow_back_ios
+          </span>
+          <p
+            onClick={() => (page !== 1 ? setpage(1) : "")}
+            style={{ color: page === 1 ? "blue" : "black" }}
+          >
+            1
+          </p>
+          <p
+            onClick={() => (page !== 2 ? setpage(2) : "")}
+            style={{ color: page === 2 ? "blue" : "black" }}
+          >
+            2
+          </p>
+
+          <span
+            class="material-symbols-outlined"
+            onClick={() => (page !== 2 ? setpage(2) : "")}
+            style={{ marginLeft: "5px", color: page === 2 ? "gray" : "black" }}
+          >
+            arrow_forward_ios
+          </span>
+        </a>
       </div>
+
       <button className="btn">View More</button>
     </div>
   );

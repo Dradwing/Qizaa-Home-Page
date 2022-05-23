@@ -16,6 +16,7 @@ function Card(props) {
         setimage(props.data.image1);
       }}
     >
+      <div className="optional">{props.data.optional}</div>
       <div className="toggledDiv" style={{ backgroundImage: `url(${image})` }}>
         <div className="toggle" style={{ height: height }}>
           Quick View
