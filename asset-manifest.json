@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Qizaa-Home-Page/static/css/main.52c28491.css",
+    "main.js": "/Qizaa-Home-Page/static/js/main.f63b0e01.js",
+    "index.html": "/Qizaa-Home-Page/index.html",
+    "main.52c28491.css.map": "/Qizaa-Home-Page/static/css/main.52c28491.css.map",
+    "main.f63b0e01.js.map": "/Qizaa-Home-Page/static/js/main.f63b0e01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52c28491.css",
+    "static/js/main.f63b0e01.js"
+  ]
+}
