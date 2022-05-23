@@ -209,20 +209,20 @@ html{scroll-behavior:smooth;}
 }
 
 .toggledDiv{
-  min-height: 370px;
+  min-height: 400px;
   background-size: cover;
   position: relative;
   
 }
 .toggle
 {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   display: grid;
 place-items: center;
   position: absolute;
   bottom: 0;
   width: 100%;
-  transition: height 0.5s;
+  transition: height 0.25s ease-in;
   overflow: hidden;
   font-size: small;
   
